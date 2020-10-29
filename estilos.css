@@ -5,7 +5,7 @@
     --shadow: rgba(13,39,80,.26);
 }
 body{
-    min-height: 100vh;
+    min-height: 100%;
     background: var(--bg);
     overflow: hidden;
 }
@@ -24,7 +24,7 @@ span{
 span:nth-child(1){
     position: relative;
     width: 600px;
-    line-height: 250px;
+    line-height: 250px ;
     border-radius: 150px;
     font-size: 150px;
     box-shadow: -15px -15px 15px var(--shadowLg),
